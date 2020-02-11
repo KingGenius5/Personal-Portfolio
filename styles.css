@@ -19,7 +19,7 @@ h3 {
 }
 
 section>section:nth-child(2n) {
-  background-color: rgb(180, 227, 251)
+  /*background-color: rgb(180, 227, 251)*/
 }
 
 section>section {
@@ -42,22 +42,13 @@ section>ul>li {
   justify-content: center;
 }
 
-.page-header {
-  display: flex;
-  justify-content: space-between;
+.portfolio-pic {
+
+  width: 100%;
+  opacity: 0.6;
+
 }
 
-.header-list {
-  display: flex;
-  list-style: none;
-}
-
-.header-list a {
-  display: block;
-  padding: 1em;
-  justify-content: center;
-}
-
-.header-list a:hover {
-  background-color: pink;
+.portfolio-pic:hover{
+  opacity: 1.0;
 }

@@ -3,11 +3,7 @@ body {
   font-size: 20px margin: 0;
 }
 
-h1 {
-  font-size: 4em;
-  padding: 0px 0px 0px 450px;
-}
-
+h1,
 h2 {
   font-size: 1em;
   margin: 1rem;
@@ -19,7 +15,7 @@ h3 {
 }
 
 section>section:nth-child(2n) {
-  /*background-color: rgb(180, 227, 251)*/
+  background-color: rgb(180, 227, 251)
 }
 
 section>section {
@@ -27,28 +23,40 @@ section>section {
 }
 
 /*
-  section > ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-  }
-  */
+   section > ul {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     justify-content: center;
+     list-style: none;
+     padding: 0;
+   }
+   */
 section>ul>li {
   margin: 1em;
-  padding-left: 200px;
-  justify-content: center;
 }
 
 .portfolio-pic {
-
-  width: 100%;
+  /*width: 100%;*/
   opacity: 0.6;
-
 }
 
-.portfolio-pic:hover{
+.portfolio-pic:hover {
   opacity: 1.0;
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+  padding: 2px 16px;
 }
